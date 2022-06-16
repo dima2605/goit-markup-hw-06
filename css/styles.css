@@ -310,8 +310,8 @@ p{
 
 .form-input:hover,
 .form-input:focus,
-.form-comment:hover,
-.form-comment:focus{
+.form-area:hover,
+.form-area:focus{
    border-color: var(--accent-color);
    outline: none;
 }
@@ -324,7 +324,7 @@ p{
     transition:fill 250ms var(--time-function);
 } 
 
-.form-comment{
+.form-area{
     padding: 12px 16px;
     resize: none;
     width: 100%;
@@ -334,7 +334,7 @@ p{
     line-height: 1.16;
     letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
+    
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -343,16 +343,22 @@ p{
     transition: border 250ms var(--time-function);
 }
 
-.form-comment::placeholder{
+.form-area::placeholder{
     transition: font-size 250ms var(--time-function);
-    
+    color: rgba(117, 117, 117, 0.5);
 }
 
-.form-comment:hover::placeholder,
-.form-comment:focus::placeholder{
+.form-area:hover::placeholder,
+.form-area:focus::placeholder{
     font-size: 14px;
 }
+.form-comment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
 
+}
 
 
 
