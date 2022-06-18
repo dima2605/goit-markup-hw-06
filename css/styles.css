@@ -1019,22 +1019,19 @@ p{
 
 .subscribe{
     margin-left: auto;
-    
-
 }
 
 .subscribe-title{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     font-weight: 700;
-
     line-height: 1.14;
-    
     text-transform: uppercase;
+    
     color: var(--white-text-color);
 }
 
-.subscribe-label {
+.subscribe-form {
     display: flex;
     align-items: center;
 }
